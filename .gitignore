@@ -1,0 +1,15 @@
+# ignore dirs
+test/
+
+# ignore file types
+*.o
+*.a
+*.log
+*.out
+*.exe
+*.swp
+*~
+*.test
+
+# ignore executable
+tripwire

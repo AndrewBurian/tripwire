@@ -1,0 +1,10 @@
+[Unit]
+Description="Tripwire Scanning Detection"
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tripwire
+KillSignal=TERM
